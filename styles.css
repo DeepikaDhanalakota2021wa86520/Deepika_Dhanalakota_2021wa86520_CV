@@ -1,0 +1,139 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-text {
+    flex: 1;
+}
+
+.profile-text h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.profile-text p {
+    margin: 5px 0 0;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.career-objective {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.career-objective h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    font-size: 1.8rem;
+    color: #333;
+    margin-top: 0;
+}
+
+.career-objective p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    font-size: 1.8rem;
+    color: #333;
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.certifications ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.certifications ul li {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.job h3 {
+    margin-top: 5px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.job ul {
+    padding-left: 20px;
+}
+
+.job ul li {
+    margin-bottom: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
